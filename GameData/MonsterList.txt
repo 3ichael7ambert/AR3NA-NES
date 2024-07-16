@@ -1,8 +1,8 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Sunday, July 14, 2024 2:23:44 PM
+;; Monster list export. Monday, July 15, 2024 7:36:24 PM
 
 ;;;; 0	GameItem: Player ID=0
-;;;; 1	GameItem: Melee ID=1
+;;;; 1	GameItem: PlayerBullet ID=1
 ;;;; 2	GameItem: Projectile Source ID=2
 ;;;; 3	GameItem: Projectile ID=3
 ;;;; 4	GameItem: Health Pickup ID=4

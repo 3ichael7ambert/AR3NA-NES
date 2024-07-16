@@ -1,31 +1,31 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Sunday, July 14, 2024 2:23:43 PM
+;; Script link export. Monday, July 15, 2024 7:36:24 PM
 ScriptAddressLo:
-	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08, #<Script09, #<Script0a, #<Script0b, #<Script0c, #<Script0d
+	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08, #<Script09, #<Script0a, #<Script0b, #<Script0c
 ScriptAddressHi:
-	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07, #>Script08, #>Script09, #>Script0a, #>Script0b, #>Script0c, #>Script0d
+	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07, #>Script08, #>Script09, #>Script0a, #>Script0b, #>Script0c
 
 TargetScriptBank:
-	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
+	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
 
 ;;=======================PRESSED=======================
 DefinedInputs_Pressed:
-
+	.db #%00000001, #%00000010
 
 DefinedScriptGameStates_Pressed:
-
+	.db #$00, #$00
 
 DefinedTargetObjects_Pressed:
-
+	.db #$00, #$00
 
 DefinedTargetController_Pressed:
-
+	.db #$00, #$00
 
 TargetState_Pressed:
-
+	.db #$00, #$00
 
 DefinedTargetScripts_Pressed:
-
+	.db #$09, #$04
 
 ;;=======================RELEASE=======================
 DefinedInputs_Released:

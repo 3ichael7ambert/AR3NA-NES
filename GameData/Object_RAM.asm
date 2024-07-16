@@ -1,5 +1,5 @@
 ;; *************** Object_RAM.asm ***************
-;; Object RAM export. Sunday, July 14, 2024 2:23:44 PM
+;; Object RAM export. Monday, July 15, 2024 7:36:24 PM
 
 TOTAL_MAX_OBJECTS = #$0d
 

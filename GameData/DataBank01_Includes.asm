@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Sunday, July 14, 2024 2:23:43 PM
+;; Script data export. Monday, July 15, 2024 7:36:24 PM
 Script00:
 	.include "Routines\BASE_4_5\Game\inputScripts\moveDown.asm"
 Script01:
@@ -23,8 +23,6 @@ Script09:
 Script0a:
 	.include "Routines\BASE_4_5\Game\MOD_MetroidVania\Inputs\changeActionToStop_unlessJumping.asm"
 Script0b:
-	.include "Routines\BASE_4_5\Game\MOD_MetroidVania\Inputs\changeActionToJumping.asm"
-Script0c:
 	.include "Routines\BASE_4_5\Game\MOD_AdventureBase\Inputs\ChangeToAttack_AdventureBase.asm"
-Script0d:
+Script0c:
 	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\moveLeft_ActionPlatformer.asm"

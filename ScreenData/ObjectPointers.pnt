@@ -43,9 +43,9 @@ GameItem0_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 1 GameItem: Melee
+;;;; 1 GameItem: PlayerBullet
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Melee
+;; Monster = PlayerBullet
 ;; Animations = 1
 GameItem1_Lo:
 ;; AnimationType = Default

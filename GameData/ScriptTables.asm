@@ -1,5 +1,5 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Monday, July 15, 2024 7:36:24 PM
+;; Script link export. Thursday, July 18, 2024 8:44:33 PM
 ScriptAddressLo:
 	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08, #<Script09, #<Script0a, #<Script0b, #<Script0c
 ScriptAddressHi:
@@ -10,22 +10,22 @@ TargetScriptBank:
 
 ;;=======================PRESSED=======================
 DefinedInputs_Pressed:
-	.db #%00000001, #%00000010
+	.db #%00000001
 
 DefinedScriptGameStates_Pressed:
-	.db #$00, #$00
+	.db #$00
 
 DefinedTargetObjects_Pressed:
-	.db #$00, #$00
+	.db #$00
 
 DefinedTargetController_Pressed:
-	.db #$00, #$00
+	.db #$00
 
 TargetState_Pressed:
-	.db #$00, #$00
+	.db #$00
 
 DefinedTargetScripts_Pressed:
-	.db #$09, #$04
+	.db #$09
 
 ;;=======================RELEASE=======================
 DefinedInputs_Released:
